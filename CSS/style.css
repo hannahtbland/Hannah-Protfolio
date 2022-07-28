@@ -1,7 +1,8 @@
-body{
+.Nav{
     background-image: url(../Images/HeroHeader.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 900px;
 }
 .header{
     height: 250px;
@@ -38,17 +39,20 @@ body{
     float: left;
     padding: 14px 16px;
 }
+.heroheader{
+    align-items: center;
+}
 .heroheader h2{
     font-family: 'Playball', cursive;
-    font-size: 95px;
+    font-size: 80px;
     text-align: center;
     color: #FFFFFF;
     padding: 0%;
 }
 .heroheader p{
     font-family: 'Gabriela', serif;
-    margin-top: -5%;
-    font-size: 75px;
+    margin-top: -3%;
+    font-size: 60px;
     text-align: center;
     color: #FFFFFF;
     padding: 0%;
@@ -57,8 +61,8 @@ body{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
     padding: 15px;
-    margin-left: 42%;
-    margin-top: -50px;
+    margin-left: 45%;
+    margin-top: -70px;
     width: 150px;
     text-align: center;
     color: #1D8A9D;
@@ -67,6 +71,7 @@ body{
     font-weight: 700;
     background-color: #FFFFFF;
     border-radius: 20px;
+    align-items: center;
 }
 .foot {
     margin-top: 120px;
@@ -95,5 +100,74 @@ figcaption{
     margin-left: 60px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+}
+.caseStudies h1{
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    color: #1D8A9D;
+}
+.parentGridCS{
+    justify-content: center;
+    text-align: center;
+    margin: 0px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "blocal tripit cwwc";
+    padding: 25px; 
+    top: 100px;    
+    z-index: 100;
+}
+
+.caseStudies img{
+    width: auto;
+    height: 50%;
+    border-radius: 10%;
+}
+.skills{
+    text-align: center;
+}
+.skills h1{
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    color: #1D8A9D;
+}
+.aboutMe{
+    text-align: center;
+}
+.aboutMe h1{
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    color: #1D8A9D;
+}
+.connect{
+    text-align: center;
+}
+.connect h1{
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    color: #1D8A9D;
+}
+#blocal{
+    grid-area: blocal;
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+    color: #00658E;
+}
+#tripit{
+    grid-area: tripit;
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+    color: #00658E;
+
+}
+#cwwc{
+    grid-area: cwwc;
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+    color: #00658E;
+    
 }
   
