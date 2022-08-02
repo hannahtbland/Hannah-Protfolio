@@ -101,73 +101,89 @@ figcaption{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
+.caseStudies {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #FFFFFF;
+}
 .caseStudies h1{
-    text-align: center;
-    font-family: 'Playball', cursive;
-    font-size: 80px;
-    color: #1D8A9D;
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 80px;
+  color: #1D8A9D;
 }
-.parentGridCS{
-    justify-content: center;
-    text-align: center;
-    margin: 0px 5%;
+.workGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "blocal tripit cwwc";
-    padding: 25px; 
-    top: 100px;    
-    z-index: 100;
-}
-
-.caseStudies img{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 375px 375px 375px;
+    grid-template-areas:
+    "blocalimg content1"
+    "content2 tripitimg"
+    "cwwcimg content3"
+    ;
+  }
+  .workGrid img {
     width: auto;
-    height: 50%;
+    height: 350px;
+    margin: 0 auto;
+    display: block;
     border-radius: 10%;
-}
+  }
+  .blocalimg {
+    grid-area: blocalimg;
+  }
+  .tripitimg {
+    grid-area: tripitimg;
+  }
+  .cwwcimg {
+    grid-area: cwwcimg;
+  }
+  .blocalimg, .tripitimg, .cwwcimg, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  .caseStudies h3{
+    font-family: 'Gabriela', serif;
+    color: #00658E;
+    font-size: 18px;
+    font-weight: 800px;
+  }
+  .caseStudies p{
+    font-family: 'Roboto', sans-serif;
+  }
+  .caseStudies button{
+    background-color: #00658E;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+  }
 .skills{
-    text-align: center;
+  padding: 60px 30px;
+  padding-top: 0;
 }
 .skills h1{
-    font-family: 'Playball', cursive;
-    font-size: 80px;
-    color: #1D8A9D;
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 80px;
+  color: #1D8A9D;
 }
-.aboutMe{
-    text-align: center;
+.skillsFlex {
+  display: flex;
+  padding: 60px 30px;
 }
-.aboutMe h1{
-    font-family: 'Playball', cursive;
-    font-size: 80px;
-    color: #1D8A9D;
+.skillsFlex div {
+  width: 33%;
+  padding: 25px;
 }
-.connect{
-    text-align: center;
+.skills img{
+  width: 60%;
 }
-.connect h1{
-    font-family: 'Playball', cursive;
-    font-size: 80px;
-    color: #1D8A9D;
-}
-#blocal{
-    grid-area: blocal;
-    font-family: 'Gabriela', serif;
-    font-size: 18px;
-    color: #00658E;
-}
-#tripit{
-    grid-area: tripit;
-    font-family: 'Gabriela', serif;
-    font-size: 18px;
-    color: #00658E;
-
-}
-#cwwc{
-    grid-area: cwwc;
-    font-family: 'Gabriela', serif;
-    font-size: 18px;
-    color: #00658E;
-    
-}
-  
