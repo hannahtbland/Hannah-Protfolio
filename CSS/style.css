@@ -159,12 +159,14 @@ figcaption{
   .caseStudies p{
     font-family: 'Roboto', sans-serif;
   }
-  .caseStudies button{
+  .project{
     background-color: #00658E;
     color: #FFFFFF;
     width: 100px;
-    height: 40px;
+    height: 50px;
     border-radius: 50%;
+    padding: 0%;
+
   }
 .skills{
   padding: 60px 30px;
@@ -180,10 +182,63 @@ figcaption{
   display: flex;
   padding: 60px 30px;
 }
-.skillsFlex div {
+
+.ur{
+  background-image: url("../Images/researchpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 33%;
-  padding: 25px;
+  padding: 5%;
 }
-.skills img{
-  width: 60%;
+.ui{
+  background-image: url("../Images/Userinterfacepic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33%;
+  padding: 5%;
+}
+.wd{
+  background-image: url("../Images/Webdevelopmentpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33%;
+  padding: 5%;
+}
+.skillsFlex h3{
+  font-family: 'Gabriela', serif;
+  color: white;
+}
+.skillsFlex p{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.aboutMe h1{
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 80px;
+  color: #1D8A9D;
+}
+.connect h1{
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 80px;
+  color: #1D8A9D;
+}
+form{
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #f2f2ff;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1), 0 0 40px rgba(0,0,0,.1);
+  background-color: white;
+}
+.btn-primary{
+  font-family: 'Roboto', sans-serif;
+  background-color: #00658E;
+  color: white;
+  border-radius: 50%;
 }
