@@ -24,10 +24,14 @@ header ul{
   float: right;
   color: #FFFFFF;
   bottom: 0%;
+  cursor: pointer;
 }
 header li{
   float: left;
   padding: 14px 16px;
+}
+header li:hover{
+  text-decoration: underline wavy #FFFFFF;
 }
 .hero{
   color: #FFFFFF;
