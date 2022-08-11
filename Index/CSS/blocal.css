@@ -1,0 +1,24 @@
+header{
+    background-color: rgba(29, 138, 157);
+    padding-top: 10px;
+  }
+  header img{
+    margin-top: -20px;
+    margin-left: 15px;  
+    width: 350px;
+    height: auto;
+  }
+  header ul{
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+    list-style-type: none;
+    margin-right: 20px;
+    overflow: hidden;
+    float: right;
+    color: #FFFFFF;
+    bottom: 0%;
+  }
+  header li{
+    float: left;
+    padding: 14px 16px;
+  }
