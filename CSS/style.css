@@ -168,13 +168,13 @@ header a:link {
 .skills{
   padding: 60px 30px;
   padding-top: 0;
-  padding-block: 10px;
   padding-right: 10px;
   border-color: #FFFFFF 10px;
 }
 .skillsFlex {
   display: flex;
   padding: 60px 30px;
+  gap: 20px;
 }
 .skills h2{
   font-family: 'Playball', cursive;
@@ -198,6 +198,7 @@ header a:link {
   width: 33%;
   padding: 5%;
   position: relative;
+  flex: 1 0 20%;
 }
 .ui{
   background-image: url("../Images/Userinterfacepic.jpg");
@@ -206,6 +207,8 @@ header a:link {
   width: 33%;
   padding: 5%;
   position: relative;
+  border: 10px #FFFFFF ;
+  flex: 1 0 20%;
 }
 .wd{
   background-image: url("../Images/Webdevelopmentpic.jpg");
@@ -214,6 +217,8 @@ header a:link {
   width: 33%;
   padding: 5%;
   position: relative;
+  border: 10px #FFFFFF ;
+  
 }
 .bgt{
 background-color: rgb(0,0,0,.7);
@@ -279,9 +284,6 @@ figcaption{
     .header-right {
       float: none;
     }
-    .toppg{
-        height: 550px;
-    }
     footer {
       display:flex;
       flex-direction: column;
@@ -289,18 +291,43 @@ figcaption{
       margin:0px;
   }
   header ul{
-
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+  }
+  .skills{
+    padding-top: 5%;
+  }
+  .hero{
+    padding-top: 10%;
   }
    
   }
   @media screen and (max-width: 700px){
-      .bgt h3{
-          font-size: 18px;
+      .workGrid{
+        padding-top: 5%;
       }
-      .bgt p{
-          font-size: 12px;
-      }
-  
+      .skillfFelx{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "ur"
+    "ui"
+    "wd";
+}
+.ur{
+  grid-area: ur;
+  padding-top: 5%;
+}
+.ui{
+  grid-area: ui;
+  padding-top: 5%;
+}
+.wd{
+  grid-area: wd;
+  padding-top: 5%;
+}
   }
 
   /* JavaScript Interaction */
