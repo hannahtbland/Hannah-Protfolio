@@ -26,6 +26,13 @@ header{
   header li:hover{
     text-decoration: underline wavy #FFFFFF;
   }
+  header a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  header a:link {
+    text-decoration: none;
+  }
   .heroimg{
     background-color: #00658E;
     

@@ -33,6 +33,13 @@ header li{
 header li:hover{
   text-decoration: underline wavy #FFFFFF;
 }
+header a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header a:link {
+  text-decoration: none;
+}
 .hero{
   color: #FFFFFF;
   align-items: center;
@@ -280,6 +287,9 @@ figcaption{
       flex-direction: column;
       width: 100%;
       margin:0px;
+  }
+  header ul{
+
   }
    
   }
