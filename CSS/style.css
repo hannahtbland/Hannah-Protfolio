@@ -17,9 +17,9 @@ header img{
 }
 header ul{
   font-family: 'Gabriela', serif;
-  font-size: 18px;
+  font-size: 15px;
   list-style-type: none;
-  margin-right: 20px;
+  margin-right: 18px;
   overflow: hidden;
   float: right;
   color: #FFFFFF;
@@ -161,6 +161,9 @@ header li:hover{
 .skills{
   padding: 60px 30px;
   padding-top: 0;
+  padding-block: 10px;
+  padding-right: 10px;
+  border-color: #FFFFFF 10px;
 }
 .skillsFlex {
   display: flex;
@@ -235,14 +238,13 @@ form{
   border-radius: 50%;
 }
 /*footer*/
-.footer{
+footer{
   background-color: #1D8A9D;
-  width: 1360px; 
-  margin-left: -85px;
-  /*display: flex;*/
+  background-size: cover;
+ display: flex;
  
 }
-.footer img{
+.footimg img{
   width: 250px;
   height: auto;
 }
@@ -257,6 +259,10 @@ figcaption{
   .workGrid {
     flex: 100%;
     max-width: 100%;
+    padding-top: 5%;
+  }
+  .cwwc{
+    padding-top: 10%;
   }
   .header a {
       float: none;
@@ -269,6 +275,13 @@ figcaption{
     .toppg{
         height: 550px;
     }
+    footer {
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+      margin:0px;
+  }
+   
   }
   @media screen and (max-width: 700px){
       .bgt h3{
@@ -277,23 +290,22 @@ figcaption{
       .bgt p{
           font-size: 12px;
       }
+  
   }
 
   /* JavaScript Interaction */
 #myBtn {
-    display: none; 
+    display: flex; 
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
     z-index: 99;
-    border-radius: 50%; 
     border: #ffffff; 
-    outline: #ffffff; 
     background-color: #1D8A9D; 
     color: white;
     cursor: pointer; 
     padding: 15px; 
-    border-radius: 0; 
+    border-radius: 50%; 
     font-size: 16px; 
     
   }
