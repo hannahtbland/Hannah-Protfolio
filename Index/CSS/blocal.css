@@ -74,3 +74,17 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
   }
+  .overview{
+    padding-top: 5%;
+  }
+  .overview h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline solid #00658E;
+    color: #00658E
+  }
+hr{
+  border-top: 1px  solid rgba(29, 138, 157, .3);
+  width: 75%;
+}
