@@ -34,7 +34,7 @@ header{
     text-decoration: none;
   }
   .heroimg{
-    background-color: #00658E;
+    background-color: #014B6B;
     
   }
   #main{
@@ -74,17 +74,225 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
   }
-  .overview{
-    padding-top: 5%;
+  hr{
+    border-top: 2px solid rgba(29, 138, 157, .3);
+    width: 80%;
   }
-  .overview h3{
+ .projectOverview img{
+   width: 20%;
+   border-radius: 30%;
+   background-color: #00658E;
+ }
+ .projectOverview h2{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  background-color: #00658E;
+  font-size: 35px;
+  text-decoration: underline wavy 2px #FFFFFF;
+ }
+ .over{
+   background-color: #00658E;
+ }
+ .projectOverview p{
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   margin-left: 5%;
+   margin-right: 5%;
+ }
+ .otf{
+   width: 10%;
+ }
+ .flow{
+   width: 45%;
+   padding-top: 15px;
+   padding-left: 20px;
+ }
+ .d-block{
+   width: 50%;
+ }
+.mb-3{
+  margin-left: 10%;
+  border: #FFFFFF;
+  text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: underline solid #00658E;
-    color: #00658E
-  }
-hr{
-  border-top: 1px  solid rgba(29, 138, 157, .3);
-  width: 75%;
+    font-size: 18px;
+    color: #FFFFFF;
 }
+.card-body{
+  background-color: #00658E;
+  
+}
+.userResearch h2{
+  font-family: 'Roboto', sans-serif;
+  color: #00658E;
+  font-size: 35px;
+  text-decoration: underline wavy 2px #00658E;
+  text-align: center;
+}
+.userResearch{
+text-align: center;
+}
+.box{
+  background-color: #00658E;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+
+}
+.box h3{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+.box img{
+  width: 10%;
+  border-radius: 30%;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.sizing{
+  text-align: center;
+  width: 40%;
+  margin-left: 29%;
+}
+.find{
+  font-family: 'Roboto', sans-serif;
+  color: #00658E;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 10%;
+}
+.finds{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 8%;
+}
+.image{
+  width: 60%;
+}
+.abby{
+  width: 50%;
+}
+.afo{
+  width: 50%;
+}
+.box h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #FFFFFF;
+  text-decoration: underline wavy 2px #FFFFFF;
+
+}
+.definition p{
+  padding-top: 15px;
+}
+.ps{
+  padding-top: 0%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #FFFFFF;
+  background-color: #00658E;
+
+}
+.definition h3{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #00658E;
+  font-size: 25px;
+}
+.cent{
+  text-align: center;
+  outline: 2px solid #00658E;
+  align-content: center;
+  box-shadow: 7px 10px rgba(29, 138, 157, .3);
+}
+ul{
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-align: left;
+
+}
+
+.ideate h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #00658E;
+  text-decoration: underline wavy 2px #00658E;
+
+}
+
+div.brp{
+  text-align: center;
+  width:75%;
+  margin-left: 13%;
+}
+.brain{
+  width: 60%;
+  margin-left: 20%;
+}
+div.prp{
+  padding-top: 10px;
+  text-align: center;
+  width:75%;
+  margin-left: 12%;
+  background-color: #00658E;
+  color: #FFFFFF;
+}
+.feat{
+  width: 40%;
+  margin-left: 30%;
+}
+.ideate h3{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #00658E;
+  text-decoration: underline wavy 2px #00658E;
+
+}
+.boxp{
+  width: 75%;
+  margin-left: 5%;
+  padding: 10px;
+  outline: 2px solid #00658E;
+  align-content: center;
+  box-shadow: 7px 10px rgba(29, 138, 157, .3);
+  
+}
+.boxpr{
+  background-color: #00658E;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+}
+.boxpr h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size: 35px;
+}
+.boxpr img{
+  width: 10%;
+  border-radius: 30%;
+}
+.d-flex{
+  margin-left: 20%;
+  padding-top: 10px;
+}
+.style{
+  outline: 2px solid #00658E;
+  text-align: center;
+  height: 50%;
+  box-shadow: 7px 10px rgba(29, 138, 157, .3);
+  padding-right: 10%;
+}
+
