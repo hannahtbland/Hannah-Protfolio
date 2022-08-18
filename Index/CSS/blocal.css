@@ -212,6 +212,8 @@ p{
   outline: 2px solid #00658E;
   align-content: center;
   box-shadow: 7px 10px rgba(29, 138, 157, .3);
+  width: 30%;
+  margin-left: 35%;
 }
 ul{
   font-family: 'Roboto', sans-serif;
@@ -295,4 +297,77 @@ div.prp{
   box-shadow: 7px 10px rgba(29, 138, 157, .3);
   padding-right: 10%;
 }
+.prototype h3{
+  margin-left: 5%;
+  font-family: 'Roboto', sans-serif;
+  color: #00658E;
+  font-size: 25px;
+  text-decoration: underline wavy 2px #00658E;
+}
+.prototype p{
+  margin-left: 10%;
+}
+.final img{
+  height: 70%;
+  border-radius: 10%;
+}
+.final h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #00658E;
+  text-decoration: underline wavy 2px #00658E;
+}
+.conclusion img{
+  width: 30%;
+}
+div .hibs{
+  width: 10%;
+  border-radius: 30%;
+}
+.d-flex{
+  padding-top: 10px;
+}
+.bees{
+  outline: 2px solid #00658E;
+  height: 50%;
+  box-shadow: 7px 10px rgba(29, 138, 157, .3);
+  padding: 15px;
+  margin-bottom: 10%;
+}
+/*footer*/
+footer{
+  background-color: #1D8A9D;
+  background-size: cover;
+ display: flex;
+ 
+}
+.footimg img{
+  width: 250px;
+  height: auto;
+}
+figcaption{
+  color: #FFFFFF;
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#myBtn {
+  display: flex; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99;
+  border: #ffffff; 
+  background-color: #1D8A9D; 
+  color: white;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 50%; 
+  font-size: 16px; 
+  
+}
 
+#myBtn:hover {
+  background-color: #00658E; 
+}
